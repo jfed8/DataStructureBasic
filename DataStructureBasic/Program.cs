@@ -4,11 +4,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Drawing;
 
 namespace DataStructureBasic
 {
     class Program
     {
+
         public static Random random = new Random();
 
         public const int CUSTOMERS = 100;
@@ -36,8 +38,6 @@ namespace DataStructureBasic
                 list.Enqueue(randomName());
             }
 
-            IEnumerator iter = list.GetEnumerator();
-
             foreach (String name in list)
             {
 
@@ -52,6 +52,7 @@ namespace DataStructureBasic
                     dict.Add(name, randomNumberInRange());
                 }
             }
+
 
             foreach (KeyValuePair<String, int> cust in dict)
             {
