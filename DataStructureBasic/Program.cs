@@ -53,6 +53,7 @@ namespace DataStructureBasic
                 }
             }
 
+
             foreach (KeyValuePair<String, int> cust in dict)
             {
                 Console.WriteLine(cust.Key.PadRight(PAD, ' ') + cust.Value);
