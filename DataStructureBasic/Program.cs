@@ -6,6 +6,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
 
+/**
+ * 
+ * Program.cs
+ * DataStructureBasic
+ * 
+ * IS403
+ * Section 2 Group 3
+ * 
+ * Created by Jaden Feddock on 9/19/16.
+ * Copyright © 2016 XLR8 Development LLC. All rights reserved.
+ * 
+ * 
+ **/
+
 namespace DataStructureBasic
 {
     class Program
