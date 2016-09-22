@@ -39,7 +39,7 @@ namespace DataStructureBasic
             return names[randomIndex];
         }
 
-        // Returns a random number within the range
+        // Returns a random number within the range!
         public static int randomNumberInRange()
         {
             return Convert.ToInt32(random.NextDouble() * 20);
